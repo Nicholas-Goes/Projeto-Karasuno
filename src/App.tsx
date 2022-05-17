@@ -8,9 +8,7 @@ function App() {
       <div>
         <Menu />
       </div>
-    
     </div>
-      
   )
 }
 
