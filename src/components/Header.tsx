@@ -1,6 +1,8 @@
 function Header() {
     return (
-        <Header></Header>
+        <header>
+            Ola Mundo
+        </header>
     )
 }
 
