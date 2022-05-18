@@ -1,7 +1,7 @@
 import './App.css'
 import Banner from './Components/Banner'
 import Menu from './Components/Menu'
-import TeamList from './Components/TeamList'
+import List from './Components/List'
 
 function App() {
   
@@ -14,7 +14,7 @@ function App() {
         <Banner />
       </div>
       <div className="Team--view">
-        <TeamList />
+        <List />
       </div>
     </div>
   )

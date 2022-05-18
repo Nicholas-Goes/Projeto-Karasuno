@@ -1,15 +1,26 @@
 import './Menu.css'
-import MenuIcon from '@mui/icons-material/Menu'
 
 function Menu() {
     return (
         <nav className="menu">
+            <div className="logo">
+                Karasuno<span>High</span>
+            </div>
             <ul className="list">
                 <li>
-                    KARASUNO<span>HIGH</span>
+                    Team
                 </li>
                 <li>
-                    <MenuIcon />
+                    Players
+                </li>
+                <li>
+                    About
+                </li>
+                <li>
+                    Careers
+                </li>
+                <li>
+                    <div className="button">Contact Us</div>                 
                 </li>
             </ul>
         </nav>

@@ -3,16 +3,11 @@ import './Banner.css'
 function Banner() {
     return (
         <header>
-            <section>
-                <address>Karasuno Volleyball Team</address>
-                <h1>Let's fly With Us</h1>
-
-                <div className='content-view'>
-                    <div>1902</div>
-                    <div>1902</div>
-                    <div>1902</div>
-                </div>          
-            </section>
+            <div className="gradient"></div>
+            <div className="text-container">
+                <h2>Karasuno Volleyball Team</h2>
+                <h1>Let's <span className="banner-title">Fly</span> With <span className="banner-title">Us</span> </h1>       
+            </div>
         </header>
     )
 }

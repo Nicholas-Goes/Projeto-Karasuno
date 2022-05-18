@@ -1,35 +1,36 @@
 header {
     width: 100%;
-    height: 80vh;
-    background-color: orange;
+    height: 90vh;
+    background-image: url(https://images.unsplash.com/photo-1645398709708-eca899c71a11?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2074);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
-section {
-    width: 100%;
-    height: 100%;
+.gradient {
+    width: inherit;
+    height: inherit;    
+    background: linear-gradient(to bottom, rgba(255, 94, 0, 0.9) 50%, rgba(255, 166, 0, 0.5));
+    position: absolute;
+}
+
+.text-container {
+    width: inherit;
+    height: inherit;
+    position: absolute;
     display: flex;
     flex-direction: column;
-    justify-content:end;
+    justify-content: center;
     align-items: center;
-    color: #fff;
+    color: white;
+    letter-spacing: 5px
 }
 
-.content-view {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    width: 90vh;
-    height: 15vh;
-    background-color: rgba(255, 68, 0, 0.5);
-    margin-bottom: 50px;
-    margin-top: 50px;
-    border-radius: 25px;
-    color: #fff;
-}
-
-header h1 {
+.text-container h1 {
     font-size: 100px;
+}
+
+.banner-title {
+    color: transparent;
+    -webkit-text-stroke: 0.1px white;
 }

@@ -1,9 +1,9 @@
-import './TeamList.css';
+import './List.css';
 
-function TeamList() {
+function List() {
     return (
         <div>
-            <div className="commercially">Sample text</div>
+            <h2 className="commercially">Sample text</h2>
             <ul className="team-list">
                 <li>
                     <div className="icon"></div>
@@ -19,4 +19,4 @@ function TeamList() {
     )
 }
 
-export default TeamList;
+export default List;

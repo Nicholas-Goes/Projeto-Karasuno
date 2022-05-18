@@ -1,18 +1,16 @@
 .menu {
+    width: 100%;
     height: 10vh;
-    width: 100%;
-    position: fixed;
-    background-color: transparent;
-}
-
-ul.list {
-    width: 100%;
-    padding: 25px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 40px;
 }
 
-span {
-    color: white;
+.menu .logo {
+    font-size: 24px;
+}
+
+.menu .logo span {
+    color: orange;
 }
