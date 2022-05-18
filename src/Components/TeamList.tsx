@@ -2,6 +2,8 @@ import './TeamList.css';
 
 function TeamList() {
     return (
+        <div>
+            <div className="commercially">Sample text</div>
             <ul className="team-list">
                 <li>
                     <div className="icon"></div>
@@ -13,6 +15,7 @@ function TeamList() {
                     <div className="icon"></div>                 
                 </li>
             </ul>
+        </div>
     )
 }
 
