@@ -1,0 +1,16 @@
+.menu {
+    height: 10vh;
+}
+
+ul.list {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+    position: fixed;
+}
+
+span {
+    color: orange
+}
