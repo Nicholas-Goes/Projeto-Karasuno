@@ -4,7 +4,7 @@ function Menu() {
     return (
         <nav className="menu">
             <div className="logo">
-                <img src="src/Assets/logo.png" alt="Volley ball" />
+                <img src="../Assets/logo.png" alt="Volley ball" />
                 Karasuno<span>High</span>
             </div>
             <ul className="list">
