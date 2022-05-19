@@ -16,13 +16,13 @@ header {
 .text-container {
     width: inherit;
     height: inherit;
-    position: absolute;
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     color: white;
-    letter-spacing: 5px
+    letter-spacing: 5px;
 }
 
 .text-container h1 {
