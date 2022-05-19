@@ -18,9 +18,9 @@
 }
 
 .menu .logo img {
-    width: auto;
+    width: 64px;
     height: 64px;
-    padding-right: 15px;
+    margin-right: 15px;
     filter: invert(100%);
 }
 

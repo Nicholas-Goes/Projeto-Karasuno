@@ -1,7 +1,6 @@
 header {
     width: 100%;
     height: 95vh;
-    background-image: url(https://images.unsplash.com/photo-1645398709708-eca899c71a11?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2074);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -10,7 +9,7 @@ header {
 .gradient {
     width: inherit;
     height: inherit;    
-    background: linear-gradient(to bottom, rgba(255, 94, 0, 0.5) 50%, rgba(255, 166, 0, 0.5));
+    background: linear-gradient(to bottom, rgba(255, 94, 0, 0.8) 50%, rgba(255, 166, 0, 0.8));
     position: absolute;
 }
 

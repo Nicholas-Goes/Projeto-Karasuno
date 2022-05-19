@@ -4,7 +4,7 @@ function Menu() {
     return (
         <nav className="menu">
             <div className="logo">
-                <img src="https://cdn-icons-png.flaticon.com/64/5092/5092119.png" alt="Volley ball" />
+                <img src="src/Assets/logo.png" alt="Volley ball" />
                 Karasuno<span>High</span>
             </div>
             <ul className="list">

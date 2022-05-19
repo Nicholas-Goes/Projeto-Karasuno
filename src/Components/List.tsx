@@ -6,12 +6,23 @@ function List() {
             <ul className="team-list">
                 <li>
                     <div className="icon"></div>
+                    <p>example</p>
                 </li>
                 <li>
-                    <div className="icon"></div>         
+                    <div className="icon"></div>
+                    <p>example</p>         
                 </li>
                 <li>
-                    <div className="icon"></div>                 
+                    <div className="icon"></div>
+                    <p>example</p>                 
+                </li>
+                <li>
+                    <div className="icon"></div>
+                    <p>example</p>                 
+                </li>
+                <li>
+                    <div className="icon"></div>
+                    <p>example</p>                 
                 </li>
             </ul>
         </div>
