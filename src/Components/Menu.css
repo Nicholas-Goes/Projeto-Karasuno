@@ -5,12 +5,19 @@
     justify-content: space-between;
     align-items: center;
     padding: 40px;
+    position: fixed;
+    z-index: 999;
 }
 
 .menu .logo {
     font-size: 24px;
 }
 
-.menu .logo span {
-    color: orange;
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+li {
+    padding-right: 25px
 }
