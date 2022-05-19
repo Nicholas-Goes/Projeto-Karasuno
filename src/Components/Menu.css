@@ -1,16 +1,27 @@
 .menu {
     width: 100%;
-    height: 10vh;
+    height: 15vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 40px;
     position: fixed;
+    padding: 20px 80px;
     z-index: 999;
 }
 
 .menu .logo {
-    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    color: white;
+}
+
+.menu .logo img {
+    width: auto;
+    height: 64px;
+    padding-right: 15px;
+    filter: invert(100%);
 }
 
 ul {
@@ -19,5 +30,12 @@ ul {
     align-items: center;
 }
 li {
-    padding-right: 25px
+    padding: 25px;
+    color: white;
+}
+
+.button {
+    background-color: orangered;
+    padding: 15px 30px;
+    border-radius: 10px;
 }
