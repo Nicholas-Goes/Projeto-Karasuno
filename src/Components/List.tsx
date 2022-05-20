@@ -4,7 +4,7 @@ function List() {
     return (
         <div>
             <h1 className='list-title'>Players</h1>
-            <ul className="team-list">
+            <ul className="team-list bg">
                 <li>
                     <div className="icon"></div>
                     <h2 className='player-name'>Daichi Sawamura</h2>
@@ -22,7 +22,7 @@ function List() {
                     <h2 className='player-name'>Yu Nishinoya</h2>                 
                 </li>
             </ul>
-            <ul className="team-list">
+            <ul className="team-list bg2">
                 <li>
                     <div className="icon"></div>
                     <h2 className='player-name'>Ryunosuke Tanaka</h2>
@@ -40,7 +40,7 @@ function List() {
                     <h2 className='player-name'>Hisashi Kinoshita</h2>                 
                 </li>
             </ul>
-            <ul className="team-list">
+            <ul className="team-list bg3">
                 <li>
                     <div className="icon"></div>
                     <h2 className='player-name'>Tobio Kageyama</h2>
