@@ -7,9 +7,10 @@
     position: fixed;
     padding: 20px 80px;
     z-index: 999;
+    text-shadow: 2px 2px 20px #00000086;
 }
 
-.menu .logo {
+.logo {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,25 +18,28 @@
     color: white;
 }
 
-.menu .logo img {
+.logo img {
     width: 64px;
     height: 64px;
     margin-right: 15px;
     filter: invert(100%);
 }
 
-ul.list {
+.list {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-ul.list li {
+
+.list li {
     padding: 25px;
     color: white;
+    font-size: 24px;
+    letter-spacing: 1px;
 }
 
 .button {
-    background-color: orangered;
+    background-color: rgb(255, 153, 0);
     padding: 15px 30px;
     border-radius: 10px;
 }
