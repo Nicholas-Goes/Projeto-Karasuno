@@ -1,7 +1,6 @@
 import './App.css'
 import Banner from './Components/Banner'
 import Menu from './Components/Menu'
-import List from './Components/List'
 import Footer from './Components/Footer'
 import Team from './Components/Team'
 
@@ -17,9 +16,6 @@ function App() {
       </div>
       <div className="team--view">
         <Team />
-      </div>
-      <div className="player--view">
-        <List />
       </div>
       <div className="footer--view">
         <Footer />
