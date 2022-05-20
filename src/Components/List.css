@@ -36,19 +36,32 @@
 
 }
 
+.team-list li {
+    z-index: 9;
+}
+
 .bg {
-    background-image: url(src/Assets/Bg.png);
+    background-image: url(src/Public/Static/Images/Bg.png);
     background-size: cover;
     background-position: center;
 }
 .bg2 {
-    background-image: url(src/Assets/Bg2.jpg);
+    background-image: url(src/Public/Static/Images/Bg2.jpg);
     background-size: cover;
     background-position: initial;
 }
 .bg3 {
-    background-image: url(src/Assets/Bg3.jpg);
+    background-image: url(src/Public/Static/Images/Bg3.jpg);
     background-size: cover;
     background-position: center;
-
+}
+.bg4 {
+    background-image: url(src/Public/Static/Images/Bg4.png);
+    background-size: cover;
+    background-position: center;
+}
+.bg5 {
+    background-image: url(src/Public/Static/Images/Bg5.png);
+    background-size: cover;
+    background-position: center;
 }

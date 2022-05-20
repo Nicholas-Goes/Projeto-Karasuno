@@ -59,7 +59,7 @@ function List() {
                 </li>
             </ul>
             <h1 className='list-title'>Management</h1>
-            <ul className="team-list">
+            <ul className="team-list bg4">
                 <li>
                     <div className="icon"></div>
                     <h2 className='player-name'>Ittetsu Takeda</h2>
@@ -74,7 +74,7 @@ function List() {
                 </li>
             </ul>
             <h1 className='list-title'>Trainer</h1>
-            <ul className="team-list">
+            <ul className="team-list bg5">
                 <li>
                     <div className="icon"></div>
                     <h2 className='player-name'>Keishin Ukai</h2>

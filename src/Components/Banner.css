@@ -4,14 +4,7 @@ header {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url(src/Assets/Banner.png);
-}
-
-.gradient {
-    width: inherit;
-    height: inherit;    
-    background: linear-gradient(to bottom, rgba(255, 94, 0, 0.8) 50%, rgba(255, 166, 0, 0.8));
-    position: absolute;
+    background-image: url(src/Public/Static/Images/Banner.png);
 }
 
 .text-container {
