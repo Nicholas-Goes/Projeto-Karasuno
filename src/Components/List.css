@@ -37,7 +37,7 @@
 }
 
 .bg {
-    background-image: url(src/Assets/Bg.jpg);
+    background-image: url(src/Assets/Bg.png);
     background-size: cover;
     background-position: center;
 }
