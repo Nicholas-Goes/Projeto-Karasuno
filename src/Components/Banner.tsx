@@ -2,7 +2,7 @@ import './Banner.css'
 
 function Banner() {
     return (
-        <header>
+        <header id='Home'>
             <div className="gradient"></div>
             <div className="text-container">
                 <h3>VOLLEYBALL TEAM</h3>

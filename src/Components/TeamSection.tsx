@@ -2,7 +2,7 @@ import './TeamSection.css'
 
 function TeamSection() {
     return (
-        <section className="team">
+        <section className="team" id='Team'>
 
         </section>
     )

@@ -35,9 +35,13 @@
 }
 
 .list li {
-    padding-left: 40px;
+    padding-left: 10px;
     color: white;
     font-size: 16px;
+}
+
+.list li a {
+    padding: 25px;
 }
 
 .button {

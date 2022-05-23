@@ -9,17 +9,21 @@ function Menu() {
             </div>
             <ul className="list">
                 <li>
-                    TEAM
+                    <a href="#Home">HOME</a>
                 </li>
                 <li>
-                    PLAYERS
+                    <a href="#Team">TEAM</a>
                 </li>
                 <li>
-                    ABOUT
+                    <a href="">PLAYERS</a>
                 </li>
-
                 <li>
-                    <div className="button">CONTACT US</div>                 
+                    <a href="">ABOUT</a>
+                </li>
+                <li>
+                    <a href="">
+                        <div className="button">CONTACT US</div>
+                    </a>                 
                 </li>
             </ul>
         </nav>
