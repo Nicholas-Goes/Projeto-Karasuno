@@ -7,6 +7,12 @@
     position: fixed;
     padding: 40px;
     z-index: 999;
+    background: transparent;
+    transition: all ease 0.4s;
+}
+
+.menu.active {
+    background-color: rgba(17, 17, 17, 1);
 }
 
 .logo {
