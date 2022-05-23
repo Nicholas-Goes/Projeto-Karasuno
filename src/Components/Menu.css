@@ -5,7 +5,7 @@
     justify-content: space-between;
     align-items: center;
     position: fixed;
-    padding: 20px 80px;
+    padding: 40px;
     z-index: 999;
 }
 
@@ -13,15 +13,19 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 36px;
+    font-size: 24px;
     color: white;
 }
 
 .logo img {
-    width: 64px;
-    height: 64px;
+    width: 32px;
+    height: 32px;
     margin-right: 15px;
     filter: invert(100%);
+}
+
+.logo span {
+    color: rgb(216, 115, 0);
 }
 
 .list {
@@ -31,14 +35,14 @@
 }
 
 .list li {
-    padding: 25px;
+    padding-left: 40px;
     color: white;
-    font-size: 24px;
-    letter-spacing: 1px;
+    font-size: 16px;
 }
 
 .button {
-    background-color: rgb(255, 153, 0);
-    padding: 15px 30px;
-    border-radius: 10px;
+    background-color: rgb(216, 115, 0);
+    color: black;
+    padding: 10px 25px;
+    border-radius: 5px;
 }

@@ -16,20 +16,25 @@ header {
     justify-content: center;
     align-items: center;
     color: white;
-    letter-spacing: 5px;
 }
 
 .gradient {
     width: inherit;
     height: inherit;    
     position: absolute;
+    background: linear-gradient(to bottom, rgba(17, 17, 17, 0.9) 100%, transparent);
 }
 
 .text-container h1 {
-    font-size: 100px;
+    font-size: 75px;
+    letter-spacing: 2.5px;
+}
+
+.text-container h2 {
+    letter-spacing: 5px;
 }
 
 .banner-title {
     color: transparent;
-    -webkit-text-stroke: 0.1px white;
+    -webkit-text-stroke: 0.1px rgb(216, 115, 0);
 }

@@ -5,21 +5,21 @@ function Menu() {
         <nav className="menu">
             <div className="logo">
                 <img src="src/Public/Static/Images/Logo.png" alt="Volley ball" />
-                Karasuno<span>High</span>
+                KARASUNO<span>HIGH</span>
             </div>
             <ul className="list">
                 <li>
-                    Team
+                    TEAM
                 </li>
                 <li>
-                    Players
+                    PLAYERS
                 </li>
                 <li>
-                    About
+                    ABOUT
                 </li>
 
                 <li>
-                    <div className="button">Contact Us</div>                 
+                    <div className="button">CONTACT US</div>                 
                 </li>
             </ul>
         </nav>

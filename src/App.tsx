@@ -1,6 +1,7 @@
 import './App.css'
 import Banner from './Components/Banner'
 import Menu from './Components/Menu'
+import TeamSection from './Components/TeamSection'
 
 function App() {
   
@@ -11,6 +12,9 @@ function App() {
       </div>
       <div className="header--view">
         <Banner />
+      </div>
+      <div className="team--view">
+        <TeamSection />
       </div>
     </div>
   )
