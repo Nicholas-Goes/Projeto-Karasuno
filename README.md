@@ -1,2 +1,1 @@
-# Projeto-Karasuno
- A simple Volleyball team theme site maked with ReactTS
+This is a starter template for [Learn Next.js](https://nextjs.org/learn).
