@@ -37,7 +37,7 @@ function Header() {
         </div>
         <div className='flex items-center space-x-5 text-orange-600'>
             <h3>Sign in</h3>
-            <h3 className='border px-4 py-1 rounded-full text-white bg-orange-600'>Contact Us</h3>
+            <h3 className=' px-4 py-1 rounded-full text-black bg-orange-600'>Contact Us</h3>
         </div>
     </header>
   )
