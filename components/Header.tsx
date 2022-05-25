@@ -18,7 +18,7 @@ function Header() {
   }, [])
   
   return (
-    <header className={black ? 'bg-black flex justify-between p-5 max-w-7xl mx-auto' : 'bg-transparent flex justify-between max-w-7xl p-5 mx-auto'}>
+    <header className={black ? ' bg-black flex justify-between px-10 py-5 w-full fixed top-0 z-50' : 'bg-transparent flex justify-between w-full px-10 py-5 fixed top-0 z-50'}>
         <div className='flex items-center space-x-5'>
             <Link href="/">
                 <Image 
@@ -37,7 +37,7 @@ function Header() {
         </div>
         <div className='flex items-center space-x-5 text-orange-600'>
             <h3>Sign in</h3>
-            <h3 className='border px-4 py-1 rounded-full border-orange-600'>Contact Us</h3>
+            <h3 className='border px-4 py-1 rounded-full text-white bg-orange-600'>Contact Us</h3>
         </div>
     </header>
   )
