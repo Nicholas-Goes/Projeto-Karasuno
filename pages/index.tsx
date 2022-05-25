@@ -13,6 +13,8 @@ const Home: NextPage = () => {
 
       <main>
         <Header />
+
+        <section>eae gurizada</section>
       </main>
 
     </div>

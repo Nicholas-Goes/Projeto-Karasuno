@@ -18,7 +18,7 @@ function Header() {
   }, [])
   
   return (
-    <header className={black ? 'bg-black flex justify-between p-5 max-w-7xl mx-auto' : 'bg-transparent flex justify-between p-5 max-w-7xl mx-auto'}>
+    <header className={black ? 'bg-black flex justify-between p-5 max-w-7xl mx-auto' : 'bg-transparent flex justify-between max-w-7xl p-5 mx-auto'}>
         <div className='flex items-center space-x-5'>
             <Link href="/">
                 <Image 
