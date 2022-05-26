@@ -2,7 +2,7 @@ import React from 'react'
 
 function Banner() {
   return (
-    <section className='bg-orange-400 py-80'>
+    <section className='py-96'>
         <div className='px-10 space-y-5'>
             <div className='flex flex-col items-center '>
                 <h2 className='tracking-wider'>Volleyball Club</h2>
