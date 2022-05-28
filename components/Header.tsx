@@ -18,7 +18,7 @@ function Header() {
   }, [])
   
   return (
-    <header className={black ? 'bg-zinc-900 flex justify-between px-10 py-5 w-full fixed top-0 z-50' : 'bg-transparent flex justify-between w-full px-10 py-5 fixed top-0 z-50'}>
+    <header className={black ? 'bg-zinc-900 flex justify-between px-10 py-5 w-full fixed top-0 z-50 transition-all duration-300' : 'bg-transparent flex justify-between w-full px-10 py-5 fixed top-0 z-50 transition-all duration-300'}>
         <div className='flex items-center space-x-5 text-white'>
             <Link href="/">
                 <Image 
