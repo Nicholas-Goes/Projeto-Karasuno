@@ -7,7 +7,7 @@ function Banner() {
             <div className='flex flex-col items-center '>
                 <h2 className='tracking-wider text-white'>Volleyball Club</h2>
                 <h1 className='text-6xl max-w-xl font-serif tracking-wider text-white'>Let's <span className='text-orange-600'>Fly</span> With <span className='text-orange-600'>Us</span></h1>
-                <button className='px-16 py-6 my-6 bg-orange-600  text-xl rounded-lg '>View More</button>
+                <button className='px-10 py-4 my-6 bg-orange-600  text-xl rounded-lg '>View More</button>
             </div>
         </div>
     </div>
