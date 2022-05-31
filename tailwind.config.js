@@ -7,6 +7,7 @@ module.exports = {
     extend: {
       backgroundImage: {
         'hero-pattern': "url('/hero-banner.png')",
+        'team-pattern': "url('/team-banner.png')",
       }
     },
   },
