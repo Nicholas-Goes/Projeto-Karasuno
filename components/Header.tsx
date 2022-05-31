@@ -30,8 +30,13 @@ function Header() {
                 />
             </Link>
             <div className='hidden md:inline-flex items-center space-x-5'>
-                <h3>About</h3>
-                <h3>Team Members</h3>
+                <Link href="#About">
+                    <p className='cursor-pointer'>About</p>
+                </Link>
+
+                <Link href="#Team">
+                    <p className='cursor-pointer'>Team Members</p>
+                </Link>
             </div>
         </div>
         <div className='flex items-center space-x-5 text-orange-600'>

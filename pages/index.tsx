@@ -7,7 +7,7 @@ import Team from '../components/Team'
 
 const Home: NextPage = () => {
   return (
-    <div>
+    <html className='scroll-smooth'>
       <Head>
         <title>Karasuno - Portal</title>
         <link rel="icon" href="/favicon.ico" />
@@ -32,7 +32,7 @@ const Home: NextPage = () => {
         <address className='text-white'>Feito com ❤ por Nicholas Goes</address>
       </footer>
 
-    </div>
+    </html>
   )
 }
 
