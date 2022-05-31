@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Team() {
+function About() {
   return (
     <div className='p-36 w-full bg-zinc-900 flex justify-between'>
       <section className='w-full text-white'>
@@ -12,4 +12,4 @@ function Team() {
   )
 }
 
-export default Team
+export default About
