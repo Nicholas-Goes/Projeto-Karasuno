@@ -12,7 +12,6 @@ const Home: NextPage = () => {
         <title>Karasuno - Portal</title>
         <link rel="icon" href="/favicon.ico" />
         <meta name="description" content="A Website made to study NextJS" />
-        <meta http-equiv="X-UA-Compatible" content="IE=7" />
         <meta name="author" content="Nicholas Goes" />
         <meta name="keywords" content="Anime, Manga, Volleyball, NextJS" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
