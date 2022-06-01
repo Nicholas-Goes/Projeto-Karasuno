@@ -4,6 +4,7 @@ import Header from '../components/Header'
 import Banner from '../components/Banner'
 import About from '../components/About'
 import Team from '../components/Team'
+import Games from '../components/Games'
 
 const Home: NextPage = () => {
   return (
@@ -25,6 +26,8 @@ const Home: NextPage = () => {
         <About />
 
         <Team />
+
+        <Games />
       </main>
 
       <footer className='bg-zinc-900 p-10 flex items-center justify-center'>

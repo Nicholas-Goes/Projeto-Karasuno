@@ -38,7 +38,7 @@ function Header() {
                     <p className='cursor-pointer'>Team</p>
                 </Link>
 
-                <Link href="#">
+                <Link href="#Games">
                     <p className='cursor-pointer'>Games</p>
                 </Link>
             </div>
