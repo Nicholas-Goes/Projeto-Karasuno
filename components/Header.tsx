@@ -35,13 +35,17 @@ function Header() {
                 </Link>
 
                 <Link href="#Team">
-                    <p className='cursor-pointer'>Team Members</p>
+                    <p className='cursor-pointer'>Team</p>
+                </Link>
+
+                <Link href="#">
+                    <p className='cursor-pointer'>Games</p>
                 </Link>
             </div>
         </div>
         <div className='flex items-center space-x-5 text-orange-600'>
-            <h3>Sign in</h3>
-            <h3 className=' px-4 py-1 rounded-full text-black bg-orange-600'>Contact Us</h3>
+            <h3>Play</h3>
+            <h3 className=' px-4 py-1 rounded-full text-black bg-orange-600'>Membership</h3>
         </div>
     </header>
   )

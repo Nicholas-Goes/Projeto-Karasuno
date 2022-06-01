@@ -28,7 +28,7 @@ const Home: NextPage = () => {
       </main>
 
       <footer className='bg-zinc-900 p-10 flex items-center justify-center'>
-        <address className='text-white'>Feito com ❤ por Nicholas Goes</address>
+        <address className='text-white'>Created with ❤ by Nicholas Goes</address>
       </footer>
 
     </html>
