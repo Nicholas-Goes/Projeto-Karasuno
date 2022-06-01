@@ -16,7 +16,7 @@ function Games() {
           <h3 className='text-2xl'>Game Title</h3>
           <sub>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos neque, porro nostrum ipsum, est enim libero aliquam quam quod vero fuga quidem doloremque voluptates at odit, repellat unde sint tenetur!</sub>         
         </li>
-        <li className='bg-white text-center'>
+        <li className='bg-white text-center pb-4'>
           <Image
             src='/player.png'
             alt='Games image'
@@ -26,7 +26,7 @@ function Games() {
           <h3 className='text-2xl'>Game Title</h3>
           <sub>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos neque, porro nostrum ipsum, est enim libero aliquam quam quod vero fuga quidem doloremque voluptates at odit, repellat unde sint tenetur!</sub>         
         </li>
-        <li className='bg-white text-center'>
+        <li className='bg-white text-center pb-4'>
           <Image
             src='/player.png'
             alt='Games image'
